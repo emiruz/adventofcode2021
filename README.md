@@ -7,5 +7,6 @@ All code can be run like this:
 ```
 cat input.txt | ./01.py
 ```
+I won't use anything outside of the standard library.
 
 ## Notes
