@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 from sys import stdin
 from itertools import groupby
-from functools import reduce
 
 ls = list(map(str.strip, stdin.readlines()))
 ls = list(map(lambda x: x.split('-'), ls))
