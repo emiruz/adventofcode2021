@@ -14,8 +14,8 @@ def P (xs,es=[]):
     else:         return P(xs[1:], es[1:])
 
 scr = lambda xs, s=0: s if not xs else scr(xs[1:], 5*s+ps2.get(xs[0]))
-ls = list(map(str.strip, stdin.readlines()))
-p1 = sum(map(lambda x: ps1.get(x[0]), filter(lambda x: x[0], list(map(P, ls)))))
-p2 = median(map(lambda x: scr(x[1]), filter(lambda x: not x[0], map(P, ls))))
+ls  = list(map(str.strip, stdin.readlines()))
+p1  = sum(map(lambda x: ps1.get(x[0]), filter(lambda x: x[0], list(map(P, ls)))))
+p2  = median(map(lambda x: scr(x[1]), filter(lambda x: not x[0], map(P, ls))))
 
 print(f"Part 1: { p1 }, Part 2: { p2 }")
