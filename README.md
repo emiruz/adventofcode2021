@@ -11,9 +11,9 @@ I won't use anything outside of the standard library.
 
 Lines of Code (LoC):
 
-$N = 11$
+$N = 12$
 
-$\sum = 6+12+13+24+23+8+9+14+16+16+22=161$ LoC
+$\sum = 6+12+13+24+23+8+9+14+16+16+22+22=185$ LoC
 
 $\mu = \frac{\sum}{N} \sim 15$ LoC
 
