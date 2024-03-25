@@ -11,9 +11,9 @@ I won't use anything outside of the standard library.
 
 Lines of Code (LoC):
 
-$N = 9$
+$N = 10$
 
-$\sum = 6 + 12 + 14 + 24 + 23 + 8 + 9 + 13 + 15= 124$ LoC
+$\sum = 6+12+14+24+23+8+9+13+15+16 = 140$ LoC
 
 $\mu = \frac{\sum}{N} \sim 14$ LoC
 
