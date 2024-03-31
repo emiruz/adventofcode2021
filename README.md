@@ -17,3 +17,5 @@ I won't use anything outside of the standard libraries
 for either language.
 
 ## Notes
+
+* The Scala Day 04 solution is better: more direct, shorter.
