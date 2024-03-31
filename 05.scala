@@ -21,4 +21,4 @@ def diags(a:Int, b:Int, c:Int, d:Int) =
   val p1   = ls.flatMap(lines.tupled).foldLeft(Vector.fill(mx*mx)(0))(updt)
   val p2   = ls.flatMap(diags.tupled).foldLeft(p1)(updt)
 
-  println(s"Part 1: ${p1.filter(_>1).size}, Part 2: ${p2.filter(_>1).size}")
+  println(s"Part 1: ${ p1.count(_>1) }, Part 2: ${ p2.count(_>1) }")
